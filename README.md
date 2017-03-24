@@ -1,11 +1,12 @@
-# spring-video-upload-aws #
+# video-upload-service-aws #
 
 Use Spring Boot, AWS, and Docker to perform video upload.
 
 ### What is this repository for? ###
 
 
-This repository demonstrate how to integrate different software components to allow user upload video file to the cloud, mainly AWS S3. The application is written in Java using Spring Framework. The deployment of the application is using docker. Running [EC2 instance](http://ec2-54-244-77-50.us-west-2.compute.amazonaws.com:8080/) is t2.small instance type, and is fully functioning.  
+This repository demonstrate how to integrate different software components to allow user upload video file to the cloud, mainly AWS S3. The application is written in Java using Spring Framework. The deployment of the application is using docker. 
+
 
 ## Prerequisites
 
@@ -34,8 +35,8 @@ Make sure you have gradle, jdk, docker installed.
 
 ## How to build the artifact, deploy docker container
 
-* git clone https://doug_huang@bitbucket.org/doug_huang/spring-video-upload-aws.git  
-* cd spring-video-upload-aws
+* git clone https://github.com/doughuang168/video-upload-service-aws.git 
+* cd video-upload-service-aws
 * ./gradlew build
 *  docker build -t yournamespace/video-upload .
 *  docker login
