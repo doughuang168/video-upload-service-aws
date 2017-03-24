@@ -1,0 +1,9 @@
+queue_name=YourQueueName
+queue_endpoint=YourAWSQueueURL
+cloud_aws_s3_bucket=YourAWSS3Bucketname
+cloud_aws_region=us-west-2
+cloud_aws_credentials_accessKey=YourAccessKey
+cloud_aws_credentials_secretKey=YourSecretKey
+video_upload.folder=/tmp/
+multipart_maxFileSize=100MB
+multipart_maxRequestSize=100MB
